@@ -1,0 +1,32 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore test output
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Ignore database files (if you don’t want to track SQLite db)
+*.sqlite3
+*.db
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs
+*.log
